@@ -3,6 +3,9 @@ Embedding atlas for Foursquare data in Italy with more than 3 million points!
 
 Using Foursquare data with Minish static embeddings from this repo: https://huggingface.co/datasets/do-me/foursquare_places_100M
 
+![](foursquare_italy_embs_1.png)
+![](foursquare_italy_embs_2.png)
+
 ## 1) Data Preparation: Adding UMAP x and y cols  
 
 This script gets the job done and took 17 minutes on my M3 Max, but could probably be improved a lot. 
