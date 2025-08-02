@@ -1,0 +1,1 @@
+{"columns": {"id": "_row_index", "text": "name", "embedding": {"x": "x", "y": "y"}}, "is_static": true, "database": {"type": "wasm", "load": true}}
