@@ -1,5 +1,10 @@
 # Apple Embedding-Atlas Foursquare Italy
-Embedding atlas for Foursquare data in Italy with more than 3 million points!
+[Embedding atlas](https://github.com/apple/embedding-atlas) for Foursquare POI data in Italy with more than 3 million points!
+
+**APP: https://do-me.github.io/apple-embedding-atlas-foursquare-italy/**
+
+---
+## Info
 
 Using Foursquare data with Minish static embeddings from this repo: https://huggingface.co/datasets/do-me/foursquare_places_100M
 
@@ -68,6 +73,13 @@ uv pip install embedding-atlas
 ```
 
 Then run this command, avoiding embedding creation and passing precalculated umap x and y coords.
+
 ```shell
 embedding-atlas foursquare_places_all_italy_names_with_umap_coords.parquet --duckdb server --no-embedding --text name --x x --y y
 ```
+
+## Misc 
+
+Note that this repo is almost maxing out what you can host for free on GitHub pages. The file limit on GitHub is 100Mb; the file size of the dataset used in this app is around 93Mb.
+
+Thanks to Apple for open sourcing this amazing piece of software! 
